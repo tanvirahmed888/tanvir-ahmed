@@ -1,0 +1,107 @@
+.lora-normal {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+/* shared-style */
+
+.text-primary{
+    color: rgb(253, 110, 10);
+}
+.btn-primary{
+    color: white;
+    padding: 18px 36px ;
+    font-size: 20px ;
+    border-radius: 5px;
+    background-color: rgb(253, 110, 10);
+    border: none;
+}
+.btn-primary-b{
+    color: white;
+}
+.dark-1{
+    columns: rgb(24, 24, 24);
+}
+.dark-2{
+    color: rgb(71, 71, 71);
+}
+.dark-3{
+    color: rgb(117, 117, 117);
+}
+/* background images */
+.header{
+    width: 1550px;
+    height: 737px;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: rgb(255, 248, 243);
+}
+
+
+/* nav style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+.nav-title{
+    font-weight: bolder;
+    font-size: 45px;
+    /* margin-left: 10px; */
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 15px;
+
+}
+nav ul a{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* banner styles */
+
+.banner{
+    display: grid;
+    grid-template-columns: 970px 1fr;
+    width: 585px;
+    height: 356px;
+}
+.banner-containt{
+margin : 50px 0 50px 30px;
+padding: 17px;
+width: 585px;
+height: 356px;
+}
+
+.banner-gritins{
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.banner-description{
+    margin-top: 0;
+    padding: 10px 10px 10px 0;
+    align-items: start;
+    font-size: 22px;
+}
+.banner-profile{
+    /* margin-right: 10px; */
+    padding-right: 10px;
+width: 566px;
+height: 576px;
+}
