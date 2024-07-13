@@ -5,8 +5,20 @@
   }
 /* shared-style */
 
+.secendry-bg{
+    background-color: rgb(255, 248, 243);
+}
+
 .text-primary{
     color: rgb(253, 110, 10);
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.section-description{
+    font-size: 18px;
+
 }
 .btn-primary{
     color: white;
@@ -20,7 +32,7 @@
     color: white;
 }
 .dark-1{
-    columns: rgb(24, 24, 24);
+    color: rgb(24, 24, 24);
 }
 .dark-2{
     color: rgb(71, 71, 71);
@@ -35,7 +47,6 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    background-color: rgb(255, 248, 243);
 }
 
 
@@ -45,8 +56,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 20px ;
-    margin-right: 20px;
+    margin-left: 75px ;
+    margin-right: 40px;
 }
 .nav-title{
     font-weight: bolder;
@@ -76,7 +87,7 @@ nav ul a{
     height: 356px;
 }
 .banner-containt{
-margin : 50px 0 50px 30px;
+margin : 50px 0 50px 75px;
 padding: 17px;
 width: 585px;
 height: 356px;
@@ -144,4 +155,22 @@ display: inline;
 .banner-description, button{
     margin-bottom: 20px;
 }
+}
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    border-radius: 10px;
+    margin-top: 103px;
+    padding: 100px 156px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
 }
