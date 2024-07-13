@@ -170,9 +170,88 @@ main{
     border-radius: 10px;
     margin-top: 103px;
     padding: 100px 156px;
-    text-align: center;
+    word-spacing: 1.5px;
 }
 .about-items{
     display: flex;
     justify-content: space-around;
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .about-items{
+        max-width: 90%;
+        justify-content: center;
+        font-size: small;
+        text-align: center;
+        align-items: stretch;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .about{
+        padding: 20px 15px;
+        max-width: 380px;
+        margin: 810px auto 0 auto;
+    }
+    .section-title{
+        font-size: 17px;
+    }
+    .section-description{
+        font-size: 8px;
+    }
+ .about-secondry-bg{
+    max-width: 90%;
+
+ }   
+}
+
+/* skills section */
+
+.skills>h3{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 40px;
+}
+.skills>p{
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    height: 300px;
+    justify-content: space-between;
+    grid-column: auto;
+    margin: 20px auto;
+    align-items: center;
+}
+.skill{
+    margin-top: 60px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0px black;
+}
+.resume{
+    margin-top: 750px;
+}
+.resume-section-title{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 45px;
+}
+.resume-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 150px;
+}
+.last-btn{
+    text-align: center;
+    margin-top: 50px;
 }
